@@ -1,7 +1,7 @@
 # 🧠 Interview Prep — MERN + NestJS + AI Integration
 
 Personal knowledge repo for technical interview preparation.
-Stack focus: **JavaScript, React, Nest.js, SQL, MongoDB**
+Stack focus: **JavaScript, React, Node.js, Next.js, Nest.js, SQL, MongoDB, Azure Cloud**
 
 Every topic follows the same structure:
 - `questions.md` → 30 most-asked Q&A with code examples
@@ -19,6 +19,9 @@ Every topic follows the same structure:
 | [Nest.js](./nestjs/README.md) | 🟢 In Progress | 0/30 | 0/10 |
 | [SQL](./sql/README.md) | 🟢 In Progress | 0/30 | 0/10 |
 | [MongoDB](./mongodb/README.md) | 🟢 In Progress | 0/30 | 0/10 |
+| [Node.js](./nodejs/README.md) | 🟢 In Progress | 0/30 | 0/10 |
+| [Next.js](./nextjs/README.md) | 🟢 In Progress | 0/30 | 0/10 |
+| [Azure Cloud](./azure/README.md) | 🟢 In Progress | 0/30 | 0/10 |
 
 **Legend:** ⚪ Not Started · 🟡 In Progress · 🟢 Reviewed Once · ✅ Confident
 
