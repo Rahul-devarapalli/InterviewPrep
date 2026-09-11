@@ -73,3 +73,25 @@ No answers given — hints only. Log anything you got stuck on in `README.md` un
     }
     ```
     _Hint: inline object/function literals recreated every render break `React.memo` — `useMemo`/`useCallback` or hoist outside the component._
+
+---
+
+## 🖥️ Runnable Coding Challenges
+
+These are self-contained React components you can run locally. Each is a single-page interview-style challenge.
+
+**Setup:** `cd react/practice-app && npm install && npm run dev`
+
+| # | Challenge | File | Key Concepts |
+|---|---|---|---|
+| 1 | Fetch API → Sortable Table | [`P1_ApiTableSorting.jsx`](./practice-app/src/practices/P1_ApiTableSorting.jsx) | `useEffect`, fetch, controlled sorting |
+| 2 | Shopping Cart with `useReducer` | [`P2_UseReducer.jsx`](./practice-app/src/practices/P2_UseReducer.jsx) | `useReducer`, dispatch, immutable updates |
+| 3 | Debounce Search (Custom Hook) | [`P3_DebounceSearch.jsx`](./practice-app/src/practices/P3_DebounceSearch.jsx) | Custom hooks, AbortController, closures |
+| 4 | User Search (2+ char filter) | [`P4_UserSearchFilter.jsx`](./practice-app/src/practices/P4_UserSearchFilter.jsx) | Controlled input, filtering, autocomplete |
+| 5 | Client-Side Pagination | [`P5_Pagination.jsx`](./practice-app/src/practices/P5_Pagination.jsx) | `useMemo`, page size config, edge cases |
+| 6 | Todo CRUD App | [`P6_TodoApp.jsx`](./practice-app/src/practices/P6_TodoApp.jsx) | CRUD, localStorage, filter tabs |
+| 7 | Stopwatch + Laps | [`P7_StopWatch.jsx`](./practice-app/src/practices/P7_StopWatch.jsx) | `useRef` for intervals, cleanup |
+| 8 | Infinite Scroll | [`P8_InfiniteScroll.jsx`](./practice-app/src/practices/P8_InfiniteScroll.jsx) | IntersectionObserver, `useCallback` |
+| 9 | Multi-Step Form | [`P9_MultiStepForm.jsx`](./practice-app/src/practices/P9_MultiStepForm.jsx) | Validation, lifting state, step management |
+| 10 | Context API Theme Switcher | [`P10_ContextTheme.jsx`](./practice-app/src/practices/P10_ContextTheme.jsx) | `createContext`, `useContext`, providers |
+
